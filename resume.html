@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudarsan Puhan - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        h1, h2, h3 {
+            margin-bottom: 0.2em;
+            color: #222;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 0.1em;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 0.9em;
+            margin-bottom: 0.3in;
+        }
+        .contact-info a {
+            color: #0077b5; /* LinkedIn blue */
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 0.3in;
+        }
+        .section h2 {
+            font-size: 1.4em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.1em;
+            margin-bottom: 0.2in;
+        }
+        .summary p {
+            font-size: 1.05em;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills-list li {
+            margin-bottom: 0.1in;
+        }
+        .skills-list strong {
+            display: inline-block;
+            width: 150px; /* Aligns the skill details */
+        }
+        .job {
+            margin-bottom: 0.25in;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.05in;
+        }
+        .job-header h3 {
+            font-size: 1.1em;
+            margin: 0;
+        }
+        .job-header span {
+            font-style: italic;
+        }
+        .job ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        .job ul li {
+            margin-bottom: 0.05in;
+        }
+        .project-header h3, .education-header h3 {
+            font-size: 1.1em;
+        }
+        .education-header {
+             display: flex;
+            justify-content: space-between;
+        }
+
+        /* Hide for print */
+        @media print {
+            body {
+                padding: 0.4in; /* Adjust for printing */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SUDARSAN PUHAN</h1>
+    <div class="contact-info">
+        Delhi, India |
+        <a href="tel:+917681068678">+91 7681068678</a> |
+        <a href="mailto:sudarsanpuhan4@gmail.com">sudarsanpuhan4@gmail.com</a> |
+        <a href="https://linkedin.com/in/sudarsan-puhan-0670b0154" target="_blank">linkedin.com/in/sudarsan-puhan</a> |
+        <a href="https://github.com/SudarsanProjects" target="_blank">github.com/SudarsanProjects</a>
+    </div>
+
+    <div class="section summary">
+        <h2>Professional Summary</h2>
+        <p>
+            Accomplished SDET and Automation Engineer with over 5 years of experience in designing, developing, and implementing scalable automation frameworks. Expertise in Java, Selenium, API testing, and CI/CD integration to ensure high-quality software delivery. A proactive problem-solver with a proven record of reducing manual testing efforts by over 70%, improving release quality, and accelerating delivery timelines in fast-paced Agile environments.
+        </p>
+    </div>
+
+    <div class="section skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming:</strong> Java, TypeScript, SQL</li>
+            <li><strong>Automation & Testing:</strong> Selenium WebDriver, Playwright, Appium, TestNG, Cucumber (BDD), REST Assured, Postman, JMeter</li>
+            <li><strong>DevOps & Tools:</strong> Jenkins, GitHub Actions, Docker, Kubernetes, Git, Maven</li>
+            <li><strong>Cloud & Monitoring:</strong> Google Cloud Platform (GCP), Splunk, Datadog</li>
+            <li><strong>Methodologies & Process:</strong> Agile (Scrum), JIRA, Confluence</li>
+        </ul>
+    </div>
+
+    <div class="section experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <div class="job-header">
+                <h3>Senior Software QA Automation Engineer, UKG</h3>
+                <span>Apr 2023 – Present</span>
+            </div>
+            <ul>
+                <li>Designed and implemented a scalable Selenium automation framework from scratch using Java, reducing manual regression effort by 70%.</li>
+                <li>Built a robust API test automation framework using REST Assured, leading to a 20% faster release cycle for microservices.</li>
+                <li>Integrated automation suites into CI/CD pipelines using Jenkins and GitHub Actions for continuous feedback and nightly builds.</li>
+                <li>Conducted performance testing with JMeter to identify and report system bottlenecks, improving application response times by 15%.</li>
+                <li>Mentored two junior engineers on automation best practices, code reviews, and framework architecture.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-header">
+                <h3>Senior Software Engineer, Capgemini</h3>
+                <span>Jun 2021 – Mar 2023</span>
+            </div>
+            <ul>
+                <li>Developed and maintained automated test suites for web applications in the insurance domain using Java, Selenium, and TestNG.</li>
+                <li>Reduced regression testing time by 70% by automating critical user workflows and integrating tests into the build process.</li>
+                <li>Performed comprehensive manual and automated testing, including system, regression, smoke, and sanity testing to ensure release quality.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-header">
+                <h3>Graduate Engineer Trainee, Gestamp Automotive</h3>
+                <span>May 2019 – May 2020</span>
+            </div>
+            <ul>
+                <li>Executed software validation and quality assurance checks for automotive control systems, ensuring compliance with industry standards.</li>
+                <li>Assisted in requirements analysis and created detailed test summary reports to inform stakeholders of testing progress.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section projects">
+        <h2>Projects</h2>
+        <div class="project">
+             <div class="project-header">
+                <h3>Internet Banking Automation Framework</h3>
+            </div>
+            <ul>
+                <li>Developed a comprehensive end-to-end UI and API automation framework for a banking application using Java, Selenium, TestNG, and REST Assured.</li>
+                <li>Features include Page Object Model (POM), data-driven testing with TestNG DataProviders, and detailed Extent Reports.</li>
+                <li>Integrated with Jenkins for scheduled CI execution and utilized GitHub for version control.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section education">
+        <h2>Education</h2>
+        <div class="education-header">
+            <h3>Bachelor of Technology (B.Tech), Mechanical Engineering</h3>
+            <span>2019</span>
+        </div>
+        <p>Gandhi Engineering College, Bhubaneswar | CGPA: 7.64 / 10</p>
+    </div>
+
+</body>
+</html>
